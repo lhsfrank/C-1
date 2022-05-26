@@ -1,4 +1,4 @@
-﻿//// See https://aka.ms/new-console-template for more information
+//// See https://aka.ms/new-console-template for more information
 using System;
 
 ////sbyte, byte, short, ushort, int, uint, long, ulong,
@@ -96,7 +96,7 @@ using System;
 //    milliseconds + " milliseconds = " + microseconds + " microseconds = " + nanoseconds + " nanoseconds");
 
 
-////Create a console application in Chapter03 named Exercise03 that outputs a simulated
+////1.Create a console application in Chapter03 named Exercise03 that outputs a simulated
 ////FizzBuzz game counting up to 100. The output should look something like the following
 ////screenshot:
 
@@ -123,6 +123,26 @@ using System;
 //    }
 //}
 
+
+
+
+
+////2.Print-a-Pyramid
+//for (int i = 0; i < 5; i++)
+//{
+//    //Console.WriteLine(i);
+//    for (int j = 0; j < 4 - i; j++)
+//    {
+//        Console.Write(" ");
+//    }
+//    for (int k = 0; k < i * 2 + 1; k++)
+//    {
+//        Console.Write("*");
+//    }
+//    Console.WriteLine();
+//}
+
+////3.
 //int correctNumber = new Random().Next(3) + 1;
 //int guessedNumber = Convert.ToInt32(Console.ReadLine());
 //if (guessedNumber == correctNumber)
@@ -136,25 +156,78 @@ using System;
 
 //Console.WriteLine("Correct number is {0}.", correctNumber);
 
+////4. Write a simple program that defines a variable representing a birth date and calculates
+////how many days old the person with that birth date is currently.
+//Console.Write("Please enter your birth year in integer: ");
+//int birthYear = Convert.ToInt32(Console.ReadLine());
+
+//Console.Write("Please enter your birth month in integer: ");
+//int birthMonth = Convert.ToInt32(Console.ReadLine());
+
+//Console.Write("Please enter your birth day in integer: ");
+//int birthDay = Convert.ToInt32(Console.ReadLine());
+
+//int currentYear = DateTime.Now.Year;
+////Console.WriteLine(currentYear);
+
+//int currentMonth = DateTime.Now.Month;
+////Console.WriteLine(currentMonth);
+
+//int currentDay = DateTime.Now.Day;
+////Console.WriteLine(currentDay);
+
+//int calYear = currentYear - birthYear;
+
+//int calMonth = 0;
+//int[] month = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+
+//if (birthMonth > currentMonth)
+//{
+//    calYear = calYear - 1;
+//    calMonth = currentMonth + 12 - birthMonth;
+//}
+//else
+//    calMonth = currentMonth - birthMonth;
+
+//int calDay = 0;
+//if (birthDay > currentDay)
+//{
+//    calMonth = calMonth - 1;
+//    calDay = currentDay + month[birthMonth] - birthDay;
+//}
+//else
+//    calDay = currentDay - birthDay;
+
+//int days = calYear * 365 + calMonth * 30 + calDay;
+//Console.WriteLine(days);
+
+//int daysToNextAnniversary = 10000 - (days % 10000);
+//Console.WriteLine(daysToNextAnniversary);
 
 
+////5.Write a program that greets the user using the appropriate greeting for the time of day.
+//DateTime date1 = DateTime.Now;
 
-//Print-a-Pyramid
-//String pyramid = "";
-int i = 0;
-while (i < 5)
+//if (date1.Hour > 4 && date1.Hour < 10)
+//    Console.WriteLine("Good Morning");
+//else if (date1.Hour > 10 && date1.Hour < 16)
+//    Console.WriteLine("Good Afternoon");
+//else if (date1.Hour > 16 && date1.Hour < 22)
+//    Console.WriteLine("Good Evening");
+//else
+//    Console.WriteLine("Good Night");
+
+
+//6.Write a program that prints the result of counting up to 24 using four different increments.
+for (int i = 1; i < 5; i++)
 {
-    for (int j = 4; j > 0; j--)
+    for (int j = 0; j < 25; j += i)
     {
-        Console.Write(" ");
-        //pyramid = pyramid + " ";
-        //for (int k = ; k > 0; k--)
+        if (j == 24)
+        {
+            Console.WriteLine(j);
+            break;
+        }
+        Console.Write(j + ", ");
     }
-    for (int k = 0; k < 5; k++)
-    {
-        Console.Write("*");
-        //pyramid = pyramid + "*";
-    }
-    Console.WriteLine();
-    i++;
 }
