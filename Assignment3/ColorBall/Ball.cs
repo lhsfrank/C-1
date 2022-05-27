@@ -26,7 +26,7 @@ namespace Assignment3.ColorBall
 
         public void Throw()
         {
-            if (Size == 0)
+            if (Size != 0)
                 NumOfTh++;
         }
 
