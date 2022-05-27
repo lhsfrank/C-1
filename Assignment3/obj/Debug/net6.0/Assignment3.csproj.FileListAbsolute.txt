@@ -1,0 +1,15 @@
+H:\Antra SEP\C#\Assignment3\Assignment3\bin\Debug\net6.0\Assignment3.exe
+H:\Antra SEP\C#\Assignment3\Assignment3\bin\Debug\net6.0\Assignment3.deps.json
+H:\Antra SEP\C#\Assignment3\Assignment3\bin\Debug\net6.0\Assignment3.runtimeconfig.json
+H:\Antra SEP\C#\Assignment3\Assignment3\bin\Debug\net6.0\Assignment3.dll
+H:\Antra SEP\C#\Assignment3\Assignment3\bin\Debug\net6.0\Assignment3.pdb
+H:\Antra SEP\C#\Assignment3\Assignment3\obj\Debug\net6.0\Assignment3.csproj.AssemblyReference.cache
+H:\Antra SEP\C#\Assignment3\Assignment3\obj\Debug\net6.0\Assignment3.GeneratedMSBuildEditorConfig.editorconfig
+H:\Antra SEP\C#\Assignment3\Assignment3\obj\Debug\net6.0\Assignment3.AssemblyInfoInputs.cache
+H:\Antra SEP\C#\Assignment3\Assignment3\obj\Debug\net6.0\Assignment3.AssemblyInfo.cs
+H:\Antra SEP\C#\Assignment3\Assignment3\obj\Debug\net6.0\Assignment3.csproj.CoreCompileInputs.cache
+H:\Antra SEP\C#\Assignment3\Assignment3\obj\Debug\net6.0\Assignment3.dll
+H:\Antra SEP\C#\Assignment3\Assignment3\obj\Debug\net6.0\refint\Assignment3.dll
+H:\Antra SEP\C#\Assignment3\Assignment3\obj\Debug\net6.0\Assignment3.pdb
+H:\Antra SEP\C#\Assignment3\Assignment3\obj\Debug\net6.0\Assignment3.genruntimeconfig.cache
+H:\Antra SEP\C#\Assignment3\Assignment3\obj\Debug\net6.0\ref\Assignment3.dll
